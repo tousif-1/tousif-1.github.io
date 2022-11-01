@@ -13,7 +13,7 @@
 {"tool": "PayloadsAllTheThings", "link": "https://github.com/swisskyrepo/PayloadsAllTheThings/", "tag": "payloads bypass web webshell PayloadsAllTheThings", "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF"},
 {"tool": "The Lazy Script", "link": "https://github.com/arismelachroinos/lscript", "tag": "lazy script The Lazy Script", "description": "The LAZY script will make your life easier, and of course faster."},
 {"tool": "Credential Dumping: Fake Services", "link": "https://www.hackingarticles.in/credential-dumping-fake-services/", "tag": "article dump credentials fake service Credential Dumping: Fake Services", "description": "Article on how to dump credentials using fake services"},
-{"tool": "OpenVPN-install", "link": ""https://github.com/Angristan/OpenVPN-install", "tag": "script  OpenVPN-install", "description": "Script for setting up your own OpenVPN server on Debian, Ubuntu, Fedora, CentOS or Arch Linux."},
+{"tool": "OpenVPN-install", "link": "https://github.com/Angristan/OpenVPN-install", "tag": "script  OpenVPN-install", "description": "Script for setting up your own OpenVPN server on Debian, Ubuntu, Fedora, CentOS or Arch Linux."},
 {"tool": "tpotce", "link": "https://github.com/telekom-security/tpotce", "tag": "honeypot tpotce", "description": "T-Pot - The All In One Honeypot Platform"},
 {"tool": "GVM-Docker", "link": "https://github.com/Secure-Compliance-Solutions-LLC/GVM-Docker", "tag": "openvas docker greenbone GVM-Docker", "description": "Greenbone Vulnerability Management Docker Image with OpenVAS"},
 {"tool": "Xerror", "link": "https://github.com/Chudry/Xerror", "tag": "pentest tool script Xerror", "description": "Fully automated pentesting tool"},
@@ -37,5 +37,5 @@
 {"tool": "Find-gh-poc ", "link": "https://github.com/trickest/find-gh-poc", "tag": "cve poc github Find-gh-poc ", "description": "Find CVE PoCs on GitHub"},
 {"tool": "tlsx", "link": "tlsx", "tag": "tls ssl encryption tlsx", "description": "Fast and configurable TLS grabber focused on TLS based data collection."},
 {"tool": "WAPT Checklist", "link": "https://alike-lantern-72d.notion.site/Web-Application-Penetration-Testing-Checklist-4792d95add7d4ffd85dd50a5f50659c6", "tag": "checklist web owasp  WAPT Checklist", "description": "Web Application Penetration Testing Checklist"},
-{"tool": "Bug Bounty Cheat Sheet", "link": "https://github.com/EdOverflow/bugbounty-cheatsheet", "tag": "bug bounty bb bugbounty payload Bug Bounty Cheat Sheet", "description": "A list of interesting payloads, tips and tricks for bug bounty hunters."},
+{"tool": "Bug Bounty Cheat Sheet", "link": "https://github.com/EdOverflow/bugbounty-cheatsheet", "tag": "bug bounty bb bugbounty payload Bug Bounty Cheat Sheet", "description": "A list of interesting payloads, tips and tricks for bug bounty hunters."}
 ]
