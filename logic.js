@@ -1,9 +1,6 @@
-//var searchResultFormat = '<tr><td>$machine</td><td>$line</td><td><a href="$link" target="_blank">YouTube</a></td></tr>';
-var searchResultFormat = '<tr><td><a href="$link" target="_blank">$machine</a></td><td align="left">$line</td></tr>';
-var linkTemplate = 'https://youtube.com/watch?v=$video&t=$time';
-var linkTemplateAcademy = 'https://academy.hackthebox.eu/module/details/$course';
+var searchResultFormat = '<tr><td><a href="$link" target="_blank">$tool</a></td><td align="left">$description</td></tr>';
+var linkTemplate = '';
 var totalLimit = 250;
-var replaceStrings = ['HackTheBox - ', 'VulnHub - ', 'UHC - '];
 
 var controls = {
     oldColor: '',
@@ -49,9 +46,9 @@ var controls = {
         }
 
         dataset.forEach(e => {
-            for (i = 0; i < replaceStrings.length; i++) {
-                e.machine = e.machine.replace(replaceStrings[i], '');
-            }
+            ////for (i = 0; i < replaceStrings.length; i++) {
+            ////    e.machine = e.machine.replace(replaceStrings[i], '');
+            ////}
 
             if ( (e.line + e.machine + e.tag).toLowerCase().match(regex) ) results.push(e);
             //if (e.line.toLowerCase().match(regex) || e.machine.toLowerCase().match(regex) || e.tag.toLowerCase().match(regex)) results.push(e);
@@ -81,19 +78,22 @@ var controls = {
             results.forEach(r => {
                 //Not the fastest but it makes for easier to read code :>
 
-		if (r.academy) {
+		/*if (r.academy) {
 			el = searchResultFormat
 			    .replace('$machine', r.machine)
 			    .replace('$line', r.line)
+			    ////.replace('$link', linkTemplateAcademy.replace('$course', r.academy));
 			    .replace('$link', linkTemplateAcademy.replace('$course', r.academy));
 		
-		} else {
-			timeInSeconds = r.timestamp.minutes * 60 + r.timestamp.seconds;
-			el = searchResultFormat
-			    .replace('$machine', r.machine)
-			    .replace('$line', r.line)
-			    .replace('$link', linkTemplate.replace('$video', r.videoId).replace('$time', timeInSeconds));
-		};
+		} else {*/
+			//timeInSeconds = r.timestamp.minutes * 60 + r.timestamp.seconds;
+		el = searchResultFormat
+			.replace('$tool', r.tool)
+			.replace('$description', r.description)
+			.replace('$link', r.link);
+			    ////.replace('$link', linkTemplate.replace('$video', r.videoId).replace('$time', timeInSeconds));
+			    
+		////};
 
                 var wrapper = document.createElement('table');
                 wrapper.innerHTML = el;
