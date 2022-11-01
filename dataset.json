@@ -13,9 +13,7 @@
 {"tool": "PayloadsAllTheThings", "link": "https://github.com/swisskyrepo/PayloadsAllTheThings/", "tag": "", "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF"},
 {"tool": "The Lazy Script", "link": "https://github.com/arismelachroinos/lscript", "tag": "pentesting bypass av metasploit antivirus payload generator script", "description": "The LAZY script will make your life easier, and of course faster."},
 {"tool": "Credential Dumping: Fake Services", "link": "https://www.hackingarticles.in/credential-dumping-fake-services/", "tag": "", "description": "Article on how to dump credentials using fake services"},
-"{""tool"": ""OpenVPN-install"", ""link"": ""https://github.com/Angristan/OpenVPN-install"", ""tag"": """", ""description"": ""Script for setting up your own OpenVPN server on Debian, Ubuntu, Fedora, CentOS or Arch Linux.
-
-""},"
+{"tool": "OpenVPN-install", "link": "https://github.com/Angristan/OpenVPN-install", "tag": "", "description": "Script for setting up your own OpenVPN server on Debian, Ubuntu, Fedora, CentOS or Arch Linux."},
 {"tool": "tpotce", "link": "https://github.com/telekom-security/tpotce", "tag": "", "description": "T-Pot - The All In One Honeypot Platform"},
 {"tool": "GVM-Docker", "link": "https://github.com/Secure-Compliance-Solutions-LLC/GVM-Docker", "tag": "openvas", "description": "Greenbone Vulnerability Management Docker Image with OpenVAS"},
 {"tool": "Xerror", "link": "https://github.com/Chudry/Xerror", "tag": "", "description": "Fully automated pentesting tool"},
