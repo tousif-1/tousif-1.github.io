@@ -50,7 +50,7 @@ var controls = {
             ////    e.machine = e.machine.replace(replaceStrings[i], '');
             ////}
 
-            if ( (e.line + e.machine + e.tag).toLowerCase().match(regex) ) results.push(e);
+            if ( (e.description + e.tool + e.tag).toLowerCase().match(regex) ) results.push(e);
             //if (e.line.toLowerCase().match(regex) || e.machine.toLowerCase().match(regex) || e.tag.toLowerCase().match(regex)) results.push(e);
         });
         return results;
