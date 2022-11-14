@@ -1,4 +1,4 @@
-var searchResultFormat = '<tr><td><a href="$link" target="_blank">$tool</a></td><td align="left">$description</td></tr>';
+var searchResultFormat = '<tr><td><a href="$link" target="_blank">$tool</a></td><td align="left">$description</td><td>$forks</td><td>$stars</td></tr>';
 var linkTemplate = '';
 var totalLimit = 250;
 
@@ -90,7 +90,9 @@ var controls = {
 		el = searchResultFormat
 			.replace('$tool', r.tool)
 			.replace('$description', r.description)
-			.replace('$link', r.link);
+			.replace('$link', r.link)
+			.replace('$forks', r.forks)
+			.replace('$stars', r.stars);
 			    ////.replace('$link', linkTemplate.replace('$video', r.videoId).replace('$time', timeInSeconds));
 			    
 		////};
