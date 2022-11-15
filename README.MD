@@ -1,6 +1,9 @@
-# lobuhi.github.io (aka rebujito.xyz)
+# tousif-1.github.io (personal Reference searches) 
 
-Rebujito is a fork of [IppSec.Rocks](https://ippsec.rocks/?#) and serves as a repo for hacking tools and other resources such as vulnerable apps, cheatsheets or methodologies. Main sources to populate the dataset were:
+
+forked from lobuhi.github.io (aka rebujito.xyz)
+
+tousif-1.github.io is a fork of lobuhi.github.io, and serves as a repo for hacking tools and other resources such as vulnerable apps, cheatsheets or methodologies. Main sources to populate the dataset were:
 * [Intigriti](https://blog.intigriti.com/category/bugbytes/) Newsletter
 * [TLDR](https://tldrsec.com/blog/) Newsletter
 * [Kitploit](https://www.kitploit.com/)
